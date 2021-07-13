@@ -1,0 +1,38 @@
+.base {
+  position: relative;
+  width: 3em;
+  height: 3em;
+  border-radius: 100%;
+  font-size: 1em;
+  border: 1px solid transparent;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0.95);
+  transition-property: transform, border, background-color, color;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.base:hover,
+.base:focus {
+  border: 1px solid rgb(181 221 216 / 26%);
+  transform: scale(1);
+}
+
+.baseActive {
+  background-color: #b5ddd8;
+  color: #171720;
+  transition-duration: 0.2s;
+}
+
+.title {
+  display: none;
+}
+
+.icon {
+  font-size: 1.7em;
+}

@@ -1,0 +1,28 @@
+.base {
+  position: relative;
+  font-size: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4em;
+  height: 4em;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 1;
+
+  transition-property: opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.baseActive {
+  opacity: 0.5;
+}
+
+.icon {
+  position: relative;
+  display: block;
+  color: #fff;
+}

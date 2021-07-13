@@ -1,0 +1,28 @@
+.base {
+  position: relative;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  width: 6em;
+  height: 100%;
+}
+
+.header {
+  position: relative;
+  padding: 1em 0;
+}
+
+.title {
+  display: none;
+}
+
+.list {
+  position: relative;
+  margin: 0;
+  padding: 1px 0;
+}
+.list > li {
+  position: relative;
+  display: block;
+  width: 3em;
+  margin: 1em auto;
+}

@@ -1,0 +1,8 @@
+.base {
+  position: relative;
+  padding: 2.5em 3em 2.5em 2em;
+}
+.header {
+  position: relative;
+  padding-bottom: 2em;
+}

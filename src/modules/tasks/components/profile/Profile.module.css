@@ -1,0 +1,31 @@
+.base {
+  position: relative;
+}
+
+.profileButton {
+  position: relative;
+  font-size: 0.9em;
+  width: 3em;
+  height: 3em;
+  border-radius: 100%;
+  border: 1px solid rgb(181 221 216 / 39%);
+  color: #b5ddd8;
+  background-color: transparent;
+  cursor: pointer;
+}
+.profileButton::after {
+  content: "";
+  display: block;
+  font-size: 1em;
+  width: 0.7em;
+  height: 0.7em;
+  position: absolute;
+  top: -0em;
+  right: -0em;
+  border-radius: 100%;
+  background-color: green;
+}
+
+.icon {
+  font-size: 1.8em;
+}
